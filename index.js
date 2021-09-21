@@ -38,7 +38,7 @@ if(readlineSync.keyInYN(chalk.red("Shall we begin the game ? y/n"))){
       console.log(chalk.cyan(`Your current score is ${score}/50`));
   }
   }
-  console.log(chalk.cyan(`Your final score is ${score}/50`));
+  console.log(chalk.yellow(`Your final score is ${score}/50`));
 } else {
   console.log(chalk.red("cancelled"));
   console.log(chalk.blue("Run again to start"));
